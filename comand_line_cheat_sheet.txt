@@ -1,0 +1,35 @@
+#Cheatsheat for github in command line
+my_
+ls -la == list of all files including hidden
+rm -rf file_name == remove directory from current location
+touch file_name == create file in directory
+git rm -r --cached <dirname> == untrack  dir from github
+git rm --cached <filename> == untrack file  from github
+git init == initialize git in the directory
+git status ==check status of files in git directory
+
+git remote add origin https://github.com/antonagafonov/PyPro-repo.git
+git remote add origin git@github.com:antonagafonov/PyPro-repo.git
+
+to ignore files create .gitignore file add names of ignoret files inside
+git add -u == add file or dir to github
+git add -A == add al the file with change to staging area
+git commit == commit all files from staging area
+git commit -m "message" == commit all files from staging area with messege
+git push - pushing to hub
+git pull -
+git reset == reset all files from commit area
+git clone <url> <where to clone> == clone from url to dir
+git diff == show diffirences
+
+git remote set-url origin git@github.com/antonagafonov/PyPro-repo.git
+git remote -v
+ssh-keygen -t rsa -b 4096 -C "toonagafonov@gmail.com"
+eval 'ssh-agent -s'
+ssh-add ~/.ssh/Jetson_Key
+
+
+a
+
+
+
