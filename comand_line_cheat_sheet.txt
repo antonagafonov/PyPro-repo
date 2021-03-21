@@ -8,15 +8,15 @@ git rm --cached <filename> == untrack file  from github
 git init == initialize git in the directory
 git status ==check status of files in git directory
 
-git remote add origin https://github.com/antonagafonov/PyPro-repo.git
-git remote add origin git@github.com:antonagafonov/PyPro-repo.git
+git remote add origin https://github.com/antonagafonov/PyPro-repo.git == creating link to github repo https//
+git remote add origin git@github.com:antonagafonov/PyPro-repo.git == creating link to github repo ssh
 
 to ignore files create .gitignore file add names of ignoret files inside
 git add -u == add file or dir to github
 git add -A == add al the file with change to staging area
 git commit == commit all files from staging area
 git commit -m "message" == commit all files from staging area with messege
-git push - pushing to hub
+git push -u origin master - pushing to hub
 git pull -
 git reset == reset all files from commit area
 git clone <url> <where to clone> == clone from url to dir
@@ -28,8 +28,16 @@ ssh-keygen -t rsa -b 4096 -C "toonagafonov@gmail.com"
 eval 'ssh-agent -s'
 ssh-add ~/.ssh/Jetson_Key
 
+git branching
 
-a
+git branch == check branches status
+git checkout -b feature-readme-instructions
+git checkout feature-readme-instructions
+
+
+
+
+
 
 
 
