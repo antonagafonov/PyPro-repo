@@ -33,6 +33,8 @@ git branching
 git branch == check branches status
 git checkout -b feature-readme-instructions
 git checkout feature-readme-instructions
+git merge
+git diff
 
 
 
