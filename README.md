@@ -1,3 +1,3 @@
 # PyPro
 
-my Pypro dir
+##Jetson Nano 2Gb playground using OpenCV
